@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap');
+@font-face {
+    font-family: FontsFree-Net-All-Round-Gothic-W01-Bold;
+    src: url(../fonts/FontsFree-Net-All-Round-Gothic-W01-Bold.ttf);
+  }
+
+.servicesection{
+   background-color: #20252F;
+}
+.servicesection  p{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.7);
+    
+
+}
+.servicesection h1{
+
+font-family:FontsFree-Net-All-Round-Gothic-W01-Bold ;
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 65px;
+color: #FFFFFF;
+
+}
+.servicesection h4{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #003BA3;
+}
+@media screen and (max-width: 767px){
+    .servicesection h1, h4,p{
+        text-align: center;
+    }
+ .count{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+}
+@media (min-device-width: 768px) and (max-device-width: 1080px){
+
+    .servicesection p{
+        margin-top: 0px !important;
+    }
+}
+/* .content{
+    font-family:' Hind Vadodara', 'sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: rgba(255, 255, 255, 0.7);
+} */

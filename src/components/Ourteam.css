@@ -1,0 +1,68 @@
+@font-face {
+    font-family: FontsFree-Net-All-Round-Gothic-W01-Bold;
+    src: url(../fonts/FontsFree-Net-All-Round-Gothic-W01-Bold.ttf);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap');
+
+
+.ourteamsection{
+    background-color: #181C23
+}
+.ourteamsection h2{
+
+   font-family: FontsFree-Net-All-Round-Gothic-W01-Bold;
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 68px;
+color: #FFFFFF;
+}
+.ourteamsection h5{
+    font-family: 'Hind Vadodara', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 28px;
+color: #003BA3;
+}
+.ourteamsection p{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+.team5{
+    margin-top: -130px;
+}
+.team6{
+    margin-left: -55px;
+    padding-bottom: 20px;
+}
+.team7{
+    margin-top: -128px
+}
+@media screen and (max-width: 767px){
+    .team-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .team5{
+        margin-top: 50px;
+    }
+    .team7{
+        margin-top: 50px;
+    }
+    .team-sec{
+        text-align: center;
+    }
+}
+@media (min-device-width: 768px) and (max-device-width: 1080px){
+    .team7{
+       margin-left: 325px;
+      
+    }
+}

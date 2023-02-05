@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap');
+
+@font-face {
+    font-family: FontsFree-Net-All-Round-Gothic-W01-Bold;
+    src: url(../fonts/FontsFree-Net-All-Round-Gothic-W01-Bold.ttf);
+  }
+
+
+.op-r{
+    background-color: #20252F;
+}
+.op-section{
+    background-color: #181C23;
+    font-family: FontsFree-Net-All-Round-Gothic-W01-Bold;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+color: #FFFFFF;
+}
+@media screen and (max-width: 767px){
+.op-img{
+    display: block;
+      margin-left: auto;
+      margin-right: auto; 
+
+}
+.team-imgs{
+    margin-top: 40px;
+}
+}
+@media (min-device-width: 768px) and (max-device-width: 1080px){
+    .op-section h3{
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,75 @@
+@font-face {
+    font-family: FontsFree-Net-All-Round-Gothic-W01-Bold;
+    src: url(../fonts/FontsFree-Net-All-Round-Gothic-W01-Bold.ttf);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap');
+
+
+
+.wcusection{
+    /* background-color: black; */
+    background-image: url(../img/Glass_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wcusection h1{
+
+    font-family:FontsFree-Net-All-Round-Gothic-W01-Bold ;
+    font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+color: #FFFFFF;
+}
+.wcusection h3{
+    font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: #FFFFFF;
+}
+.wcusection p{
+    font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 30px;
+
+color: rgba(255, 255, 255, 0.7);
+}
+.tick-img{
+    display: block;
+    max-width: 150%;
+    height: auto;
+  }
+  @media screen and (max-width: 767px){
+    .wcusection h1{
+        text-align: center;
+    }
+    .wcusection h3{
+        text-align: start;
+    }
+    .wcusection p{
+        text-align: start;
+    }
+  }
+  @media (min-device-width: 768px) and (max-device-width: 1080px){
+    .tick-img{
+        display: block;
+        max-width: 35px !important;
+        height: auto;
+      }
+
+      .wcusection h3{
+     margin-left: 20px;
+    }
+    .wcusection p{
+        margin-left: 20px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .wcu-i{
+        margin-top: 200px;
+    }
+  }

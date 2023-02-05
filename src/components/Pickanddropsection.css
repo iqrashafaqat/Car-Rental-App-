@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap');
+@font-face {
+    font-family: FontsFree-Net-All-Round-Gothic-W01-Bold;
+    src: url(../fonts/FontsFree-Net-All-Round-Gothic-W01-Bold.ttf);
+  }
+
+
+
+
+.PandD_section{
+    background-color: #181C23;
+}
+.PandD_section h5{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.form-select{
+    background-color: #20252F;
+    /* border-color: #20252F; */
+    border: none;
+    border-radius: 0%;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Hind Vadodara';
+
+}
+.datepicker{
+    background-color: #20252F;
+    border: none;
+    border-radius: 0%;
+    color: #ffff;
+    font-family: 'Hind Vadodara';
+
+}
+.form-control{
+    background-color: #20252F ;
+    border: none;
+    border-radius: 0%;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Hind Vadodara';
+
+}
+.form-select:focus{
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+
+}
